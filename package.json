@@ -1,0 +1,25 @@
+{
+  "name": "Welcome-Games",
+  "version": "1.0.0",
+  "description": "L'objectif est de créer une API permettant l'enregistrement de jeux de sociétés dans une base de données à travers une architecture Express basique et une fonction SQL déployée avec Sqitch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paulo-GF/Welcome-Games.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paulo-GF/Welcome-Games/issues"
+  },
+  "homepage": "https://github.com/Paulo-GF/Welcome-Games#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  }
+}

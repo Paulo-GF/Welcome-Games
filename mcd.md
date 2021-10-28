@@ -1,0 +1,1 @@
+WELCOME_GAMES: name, topic ,author, image, editor, minimum_age, game_time, minimum_players, maximum_players, description

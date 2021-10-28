@@ -1,0 +1,10 @@
+# Initialize environment variables
+export SQITCH_USERNAME=welcome_games
+export SQITCH_PASSWORD=welcome_games
+
+# Sqitch revert
+sqitch revert db:pg:welcome_games
+
+# Disable environment variables
+unset SQITCH_USERNAME
+unset SQITCH_PASSWORD
