@@ -14,6 +14,7 @@ unset PGUSER
 cd migrations
 sqitch init welcome_games --engine pg
 sqitch add init -n "initialization of basic structure"
+sqitch add insert_function -n "create insert function sql"
 
 # deploy sqitch scripts
 bash sqitch_revert

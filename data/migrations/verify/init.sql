@@ -2,6 +2,6 @@
 
 BEGIN;
 
--- XXX Add verifications here.
+SELECT id, name, topic, author, image, editor, minimum_age, game_time, minimum_players, maximum_players, description FROM welcome_games WHERE false;
 
 ROLLBACK;

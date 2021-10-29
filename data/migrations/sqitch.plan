@@ -2,3 +2,4 @@
 %project=welcome_games
 
 init 2021-10-28T21:26:39Z Etudiant O'clock <student@teleporter> # initialization of basic structure
+insert_function 2021-10-29T12:07:59Z Etudiant O'clock <student@teleporter> # create insert function sql
