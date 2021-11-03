@@ -1,4 +1,4 @@
-// Client de connexion
+// Connexion client
 const {Pool} = require("pg");
 
 const pool = new Pool({

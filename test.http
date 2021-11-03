@@ -1,0 +1,17 @@
+#Path to insert a new game in database
+
+POST http://localhost:3102/welcome-games
+Content-Type: application/json
+
+{
+        "name":"Football game 2022",
+        "author":"Football federation",
+        "topic":"New football game",
+        "image":"none.png",
+        "editor":"Football production",
+        "minimum_age":7,
+        "game_time": "90 min",
+        "minimum_players":"22",
+        "maximum_players":"44",
+        "description":"Let's have a football party !"
+}
